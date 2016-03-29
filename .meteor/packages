@@ -26,3 +26,10 @@ accounts-password
 
 sanjo:jasmine
 velocity:console-reporter
+velocity:html-reporter
+twbs:bootstrap
+aldeed:collection2
+alethes:pages
+reactive-var
+aldeed:simple-schema
+check

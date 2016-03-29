@@ -1,0 +1,437 @@
+body {
+    padding-top: 50;
+}
+.panel-login {
+	border-color: #ccc;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+	color: #00415d;
+	background-color: #fff;
+	border-color: #fff;
+	text-align:center;
+}
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	color: #666;
+	font-weight: bold;
+	font-size: 15px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+	color: #029f5b;
+	font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	height: 35px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+.btn-login {
+	background-color: #59B2E0;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #59B2E6;
+}
+.btn-cart {
+	background-color: #0095cd;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border: solid 1px #0076a3;
+}
+.btn-cart:hover,
+.btn-cart:focus {
+	color: #fff;
+	background-color: #007ead;
+	border-color: #007ead;
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #53A3CD;
+	border-color: #53A3CD;
+}
+.forgot-password {
+	text-decoration: underline;
+	color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: #666;
+}
+
+.btn-register {
+	background-color: #1CB94E;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #1CA347;
+	border-color: #1CA347;
+}
+.btn-reset {
+	background-color: #e10000;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #ca0000;
+}
+.btn-reset:hover,
+.btn-reset:focus {
+	color: #fff;
+	background-color: #bb0000;
+	border-color: #bb0000;
+}
+.input-group-addon.primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+}
+.input-group-addon.success {
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 184, 92);
+    border-color: rgb(76, 174, 76);
+}
+.input-group-addon.info {
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 179, 215);
+    border-color: rgb(38, 154, 188);
+}
+.input-group-addon.warning {
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 173, 78);
+    border-color: rgb(238, 162, 54);
+}
+.input-group-addon.danger {
+    color: rgb(255, 255, 255);
+    background-color: rgb(217, 83, 79);
+    border-color: rgb(212, 63, 58);
+}     
+.nav-sidebar { 
+    width: 100%;
+    padding: 8px 0; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.nav-sidebar a {
+    color: #333;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+    -webkit-border-radius: 4px 0 0 4px; 
+    -moz-border-radius: 4px 0 0 4px; 
+    border-radius: 4px 0 0 4px; 
+}
+.nav-sidebar .active a { 
+    cursor: default;
+    background-color: #428bca; 
+    color: #fff; 
+    text-shadow: 1px 1px 1px #666; 
+}
+.nav-sidebar .active a:hover {
+    background-color: #428bca;   
+}
+.nav-sidebar .text-overflow a,
+.nav-sidebar .text-overflow .media-body {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis; 
+}
+
+/* Right-aligned sidebar */
+.nav-sidebar.pull-right { 
+    border-right: 0; 
+    border-left: 1px solid #ddd; 
+}
+.nav-sidebar.pull-right a {
+    -webkit-border-radius: 0 4px 4px 0; 
+    -moz-border-radius: 0 4px 4px 0; 
+    border-radius: 0 4px 4px 0; 
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+caption {
+	color: black;
+}
+.divBorder {
+	border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-top: 10px;
+    height: auto;
+}
+.sidebarAndProductsContainer {
+	padding-top: 20px;
+}
+h1.productName {
+	word-wrap: break-word;
+}
+.fontBlack {
+	color: black;
+}
+.outOfStockLabel {
+	color: white;
+	background-color: #e10000;
+}
+.btn-wishlist {
+	background-color: #6e6e6e;
+	outline: none;
+	color: #fff;
+	font-size: 10px;
+	min-height: 20px;
+	font-weight: normal;
+	padding: 8px;
+	text-transform: uppercase;
+	border: solid 1px #6e6e6e;
+}
+.btn-wishlist:hover,
+.btn-wishlist:focus {
+	color: #fff;
+	background-color: #616161;
+	border-color: #616161;
+}
+.btn-removeFromCart {
+	background-color: #6e6e6e;
+	outline: none;
+	color: #fff;
+	font-size: 10px;
+	min-height: 20px;
+	font-weight: normal;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-transform: uppercase;
+	border: solid 1px #6e6e6e;
+}
+.btn-removeFromCart:hover,
+.btn-removeFromCart:focus {
+	color: #fff;
+	background-color: #616161;
+	border-color: #616161;
+}
+.btn-saveNewPassword {
+	background-color: #0095cd;
+	outline: none;
+	color: #fff;
+	font-size: 10px;
+	height: auto;
+	font-weight: normal;
+	padding: 4px;
+	text-transform: uppercase;
+	border: solid 1px #0076a3;
+}
+.btn-saveNewPassword:hover,
+.btn-saveNewPassword:focus {
+	color: #fff;
+	background-color: #007ead;
+	border-color: #007ead;
+}
+.btn-changePassword {
+	background-color: #0095cd;
+	outline: none;
+	color: #fff;
+	font-size: 10px;
+	height: auto;
+	font-weight: normal;
+	padding: 10px;
+	text-transform: uppercase;
+	border: solid 1px #0076a3;
+}
+.btn-changePassword:hover,
+.btn-changePassword:focus {
+	color: #fff;
+	background-color: #007ead;
+	border-color: #007ead;
+}
+.btn-editPhoneNumber {
+	background-color: #0095cd;
+	outline: none;
+	color: #fff;
+	font-size: 10px;
+	height: auto;
+	font-weight: normal;
+	padding: 10px;
+	text-transform: uppercase;
+	border: solid 1px #0076a3;
+}
+.btn-editPhoneNumber:hover,
+.btn-editPhoneNumber:focus {
+	color: #fff;
+	background-color: #007ead;
+	border-color: #007ead;
+}
+.btn-proceedCheckout {
+	background-color: #0095cd;
+	outline: none;
+	color: #fff;
+	font-size: 11px;
+	height: auto;
+	font-weight: normal;
+	padding: 10px;
+	text-transform: uppercase;
+	border: solid 1px #0076a3;
+}
+.btn-proceedCheckout:hover,
+.btn-proceedCheckout:focus {
+	color: #fff;
+	background-color: #007ead;
+	border-color: #007ead;
+}
+.btn-addStock {
+	background-color: #0095cd;
+	outline: none;
+	color: #fff;
+	font-size: 11px;
+	height: auto;
+	font-weight: normal;
+	padding: 10px;
+	text-transform: uppercase;
+	border: solid 1px #0076a3;
+}
+.btn-addStock:hover,
+.btn-addStock:focus {
+	color: #fff;
+	background-color: #007ead;
+	border-color: #007ead;
+}
+.btn-edit {
+	background-color: #0095cd;
+	outline: none;
+	color: #fff;
+	font-size: 11px;
+	height: auto;
+	font-weight: normal;
+	padding: 10px;
+	text-transform: uppercase;
+	border: solid 1px #0076a3;
+}
+.btn-edit:hover,
+.btn-edit:focus {
+	color: #fff;
+	background-color: #007ead;
+	border-color: #007ead;
+}
+.btn-remove {
+	background-color: #e10000;
+	outline: none;
+	color: #fff;
+	font-size: 11px;
+	height: auto;
+	font-weight: normal;
+	padding: 5px;
+	text-transform: uppercase;
+	border: solid 1px #e10000;
+}
+.btn-remove:hover,
+.btn-remove:focus {
+	color: #fff;
+	background-color: #cc0000;
+	border-color: #cc0000;
+}
+.addNewStockModal .modal-dialog {
+	min-width: 250px;
+	max-width: 300px;
+}
+.updateProductModal .modal-dialog {
+	min-width: 250px;
+	max-width: 300px;
+}
+
+.btn-save {
+	background-color: #0095cd;
+	outline: none;
+	color: #fff;
+	font-size: 11px;
+	height: auto;
+	font-weight: normal;
+	padding: 10px;
+	text-transform: uppercase;
+	border: solid 1px #0076a3;
+}
+.btn-save:hover,
+.btn-save:focus {
+	color: #fff;
+	background-color: #007ead;
+	border-color: #007ead;
+}
+.btn-cancel {
+	background-color: #e10000;
+	outline: none;
+	color: #fff;
+	font-size: 11px;
+	height: auto;
+	font-weight: normal;
+	padding: 10px;
+	text-transform: uppercase;
+	border: solid 1px #e10000;
+}
+.btn-cancel:hover,
+.btn-cancel:focus {
+	color: #fff;
+	background-color: #cc0000;
+	border-color: #cc0000;
+}
+.seperator {
+	padding: 10px;
+}

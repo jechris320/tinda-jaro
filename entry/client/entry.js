@@ -1,5 +1,5 @@
 // Methods for optimistic updates
-import 'TodoApp/todo-methods';
+import 'TindaJaro/methods';
 
 import './routes';
 

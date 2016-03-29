@@ -1,6 +1,6 @@
 ReactRouterSSR.Run({
   childRoutes: [
-    require('TodoApp/client'),
-    require('AdminApp/client')
+    require('TindaJaro/client'),
+    //require('AdminApp/client')
   ]
 });

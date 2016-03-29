@@ -1,5 +1,14 @@
-import 'TodoApp/todo-methods';
-import 'TodoApp/server/todo-subscriptions';
+import 'TindaJaro/methods';
+import 'TindaJaro/server/subscriptions';
+import 'TindaJaro/server/collectionsAccessControl/Products';
+import 'TindaJaro/server/collectionsAccessControl/CartItems';
+import 'TindaJaro/server/collectionsAccessControl/Wishlist';
+import 'TindaJaro/server/collectionsAccessControl/Orders';
+
+import 'TindaJaro/schemas/CartItemSchema';
+import 'TindaJaro/schemas/ProductSchema';
+import 'TindaJaro/schemas/OrderSchema';
+import 'TindaJaro/schemas/WishlistSchema';
 
 // Do server-rendering only in proudction mode
 if (process.env.NODE_ENV === 'production') {
